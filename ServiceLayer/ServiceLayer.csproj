@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="AdminServices\" />
-    <Folder Include="BookServices\Concrete\" />
     <Folder Include="DatabaseServices\" />
   </ItemGroup>
 
