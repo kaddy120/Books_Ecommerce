@@ -1,6 +1,6 @@
 ﻿namespace ServiceLayer
 {
-    public class DropDownTuple
+    public class DropdownTuple
     {
         public string Value { get; set; }
 
