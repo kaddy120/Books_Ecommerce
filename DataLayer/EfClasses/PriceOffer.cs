@@ -10,7 +10,7 @@ namespace DataLayer.EfClasses
     {
         public int PriceOfferId { get; set; }
         public decimal NewPrice { get; set; }
-        public int BoookId { get; set; }
+        public int BookId { get; set; }
         public string PromotionalText { get; set; }
     }
 }

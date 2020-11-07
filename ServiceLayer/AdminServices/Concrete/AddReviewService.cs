@@ -20,7 +20,7 @@ namespace ServiceLayer.AdminServices.Concrete
             _context = context;
         }
 
-        public Review GetReview(int id)
+        public Review GetBlankReview(int id)
         {
             BookTitle = _context.Books.
                 Where(b => b.BookId == id).
@@ -30,11 +30,10 @@ namespace ServiceLayer.AdminServices.Concrete
             return new Review
             {
                 BookId = id
-            };
-            
+            };  
         }
 
-        public Book Update(Review review)
+        public Book AddReviewToBook(Review review)
         {
             var Book = _context.Books.
                 Include(b => b.Reviews).Single(b => b.BookId == review.BookId);
