@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.AdminServices
 {
-    public class ChangaePubDateDto
+    public class ChangePubDateDto
     {
         public int BookId { get; set; }
         public string Title { get; set; }
